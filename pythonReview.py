@@ -44,4 +44,6 @@ comment = input("write a comment")
 video = add_comment(video, username, comment)
 print(video)
 
+video["likes"] = video["likes"] + 495
 
+print(video)
